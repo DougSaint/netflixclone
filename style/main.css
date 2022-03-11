@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/*Colors*/
+:root{
+	--vermelho: #e50914;
+	--preta: #141414;
+}
+
+body{
+	background-color: #141414;
+	font-family: 'Arial', Times, serif;
+	color: white;
+
+}
+
+header div.container{
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	color:var(--vermelho);
+	font-size: 30px;
+	margin-left: 10px;
+	font-style: 'Arial-Black', Times;
+}
+header nav a{
+	text-decoration:none;
+	color: #aaa;
+	margin: 10px;
+}
+header nav a:hover{
+	color: #fff;
+}
+
+.filme-principal{
+	font-size: 16px;
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/u5isewFXYij1ZOfCKlOT8zCp57g.jpg);
+	background-size: cover;
+	height: 400px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.titulo{
+	font-size: 40px;
+}
+
+.descricao{
+	margin-bottom: 50px;
+	width: 50%;
+}
+
+.botao{
+	border: none;
+	background-color: rgba(0,0,0,.50);
+	color: white;
+	padding:15px 30px;
+	margin-right: 30px;
+	cursor: pointer;
+	transition: 0.3s ease all;
+}
+.botao:hover{
+	background-color: white;
+	color: black;
+}
+.botao i{
+	margin-right:5px;
+}
+
+.container{
+	margin-left:20px;
+}
+.container .filme-principal .botao{
+	width: 70%;
+}
+
+.carrossel{
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin-top:5px;
+}
+footer .namef{
+	text-align: right;
+	margin-right: 60px;
+	color:bisque
+}
+footer .dio{
+	font-style:italic;
+	text-align: right;
+	margin-right: 200px;
+	color:rgb(35, 30, 50)
+
+}
+.carrossel .item{
+	cursor: pointer;
+}
+
+footer .contact{
+	margin-left:20px;
+	text-align: none;
+}
